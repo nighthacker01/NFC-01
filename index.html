@@ -9,7 +9,7 @@
   <video class="input_video" style="display:none;"></video>
 
   <script>
-    let socket = new WebSocket("ws://你的電腦IP:12345");  // ← 請填你的電腦內網IP + WebSocket端口
+    let socket = new WebSocket("ws://192.168.1.102");  // ← 請填你的電腦內網IP + WebSocket端口
 
     const videoElement = document.querySelector('.input_video');
     const faceMesh = new FaceMesh({
